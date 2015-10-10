@@ -202,6 +202,8 @@ Partial Class Form1
         Me.TextBox1.ReadOnly = True
         Me.TextBox1.Size = New System.Drawing.Size(249, 31)
         Me.TextBox1.TabIndex = 14
+        Me.TextBox1.Text = "0"
+        Me.TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'Form1
         '
@@ -224,6 +226,7 @@ Partial Class Form1
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.ResumeLayout(False)
